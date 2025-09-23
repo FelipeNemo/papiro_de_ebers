@@ -1,0 +1,1265 @@
+{
+  "pdf_path": "data/test/A419 - ( Outras septicemias ) Septi.txt",
+  "chunks": [
+    "A419 - ( Outras septicemias ) Septicemia nao especificada Evolução HNSC: ### MEDICINA INTERNA ###",
+    "INTERNA ### Maria Cecilia Araujo de Oliveira, 84 anos Registro: 24926612 DI EMER 21/08 | MEI 23/08",
+    "21/08 | MEI 23/08 | UTI 28/08 | MEI 02/09 PRÉVIO: # FA paroxística # HAS # IC - Ecocardio 21/08: FE",
+    "Ecocardio 21/08: FE 70%. Esclerose valvar aórtica não obstrutiva com regurgitação leve. Ventrículo",
+    "leve. Ventrículo esquerdo com hipertrofia excêntrica e função sistólica preservada. Disfunção",
+    "Disfunção diastólica grau 1. Mitroesclerose. Regurgitação mitral mínima. Dilatação atrial esquerda.",
+    "atrial esquerda. Regurgitação tricúspide mínima # Hipotireoidismo # Tabagista em remissão há 2",
+    "em remissão há 2 meses MUC: rivaroxabana 20mg/dia, HCTZ 25mg, enalapril 20mg BID, t. metoprolol",
+    "BID, t. metoprolol 100mg BID, sinvastatina 40mg/noite, levotiroxina 50 mcg, salbutamol em crise de",
+    "em crise de dispneia HDA (21/08): Paciente com queixa de dor torácica em \"fincada\" do lado direito,",
+    "do lado direito, com início há 3 dias. Refere crises de dor de aproximadamente 20 minutos, não",
+    "20 minutos, não associada ao esforço físico. Menciona que tem apresentado dispneia associada aos",
+    "associada aos médios esforços. Nega batida, refere alguns estresses. ATUAL # Dor torácica tipo C/D",
+    "torácica tipo C/D - provavelmente não anginosa :: Tropononina sem curva (10,6 -> 11,9) ::",
+    "(10,6 -> 11,9) :: Alterações dinâmicas no ECG: inversão de T em DII, DII e AVF :: Heart Score",
+    "AVF :: Heart Score 1+1+2+1+0=4 :: Cintilo miocárdica 28/08: Discreta área de hipoatividade",
+    "de hipoatividade ântero-apical de etiologia a ser esclarecida. Não realizou a etapa de estresse a",
+    "etapa de estresse a pedido do médico assistente. # Queda hematimétrica por HDA ativa :: Hb: 12",
+    "HDA ativa :: Hb: 12 >11.9>10,6>8,7>8>5,5 ;; EDA Sangramento ativo em porejamento em D2 - provável",
+    "em D2 - provável lesão de Dieulafoy - mantendo sangramento ativo mesmo após tratamento endoscópico",
+    "endoscópico adequado (2 clipes + escleroterapia) :: AngioTC na urgencia: retropneumoperitonio ->",
+    "-> avaliada pela CG, que indicou tratamento conservador e TC de controle em 48h :: 3 CHADs desde",
+    ":: 3 CHADs desde 27/08 :: Hb recentes: 6,8 -> 7,5 (03/09) # Herpes Zoster identificado em 26/08 ->",
+    "em 26/08 -> possivelmente a causa da dor torácica ATB: Aciclovir 28/08 - atual PPTZ 28/08 - atual",
+    "PPTZ 28/08 - atual SUBJETIVO Encontro paciente em leito de enfermaria, desacompanhada. Relata",
+    "Relata melhora completa da dor abdominal e ausência de novas evacuações melenadas. Relata boa",
+    "Relata boa aceitação VO. Sem novas queixas. OBJETIVO BEG, mucosas hipocoradas, LOC.. Eupneica em aa",
+    "Eupneica em aa SVs 24h PASS 120-130 | FC 74 -79 | Sat > 95% em aa | Afebril HGT 88-106-85 | Diurese",
+    "88-106-85 | Diurese presente e evacuações presentes - pastosas. Sem episódios de melena recentes",
+    "de melena recentes AC: BNF, RR, 2T, sem sopros AP: MVUD, SRA, eupneica ABD: Depressível, globoso,",
+    "globoso, sem dor a palpação superficial ou profunda, não palpo massas ou megalias, sem sinais de",
+    "sem sinais de peritonismo EXT: aquecidas e perfundidas, TEC <3s, sem edema ou empastamento de",
+    "ou empastamento de panturrilha] IMPRESSÃO: Octogenária com funcionalidades preservadas previamente,",
+    "previamente, interna em contexto de dor torácica atípica e alterações dinâmicas em ECG, sem curva",
+    "em ECG, sem curva de troponinas - realizada estratificação não invasiva, sem achados conclusivos",
+    "achados conclusivos devido ausência de etapa de estresse. Intercorre com HDA e queda hematimétrica",
+    "queda hematimétrica com necessidade de transferência para UTI - sem sucesso em tentativas de",
+    "em tentativas de hemostase endoscópica. Identificado pneumoretroperitônio pós EDA -> em manejo",
+    "EDA -> em manejo conservador e sem novas quedas hematimétricas. # Devido a probabilidade",
+    "a probabilidade intermediária de SCA/DAC, associada ao alto risco de ressangramento com DAPT,",
+    "com DAPT, optado pelo não seguimento de investigação coronariana CONDUTA: Sem necessidade de CHAD",
+    "necessidade de CHAD por ora - vigio exteriorizações Mantenho Ferro EV com plano de 5 dias de",
+    "plano de 5 dias de reposição - D1 03/09 Mantenho omeprazol EV por ora Aguarda TC para",
+    "ora Aguarda TC para acompanhamento de pneumoretroperitonio Aguarda consultoria da odontologia Plano",
+    "odontologia Plano de Labs para sábado PLANO: - Discutir necessidade de retorno à anticoagulação",
+    "à anticoagulação plena, visto FA paroxística pouco provável R1 MEI João Zanata | R2 MEI Fernanda |",
+    "| R2 MEI Fernanda | Eq. Cláudia Evoluído por: JOAO VITOR MARTINELLI ZANATA - CRM: 59497 em 04/09/25",
+    "59497 em 04/09/25 às 12:48"
+  ],
+  "results": [
+    {
+      "chunk": "A419 - ( Outras septicemias ) Septicemia nao especificada Evolução HNSC: ### MEDICINA INTERNA ###",
+      "concepts": [
+        {
+          "conceptId": 237124006,
+          "term": "Haematopyometra. Hematopyometra. Hematopyometra (disorder)"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Septicemia não especificada\",\n  \"justificativa\": \"O trecho menciona explicitamente 'septicemia não especificada', que é o diagnóstico mais relevante, enquanto o conceito de hematopyometra não se relaciona diretamente com a septicemia.\"\n}\n```"
+    },
+    {
+      "chunk": "INTERNA ### Maria Cecilia Araujo de Oliveira, 84 anos Registro: 24926612 DI EMER 21/08 | MEI 23/08",
+      "concepts": [
+        {
+          "conceptId": 201097003,
+          "term": "Senile keratoma. Senile keratoma (disorder)"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Senile keratoma (disorder)\",\n  \"justificativa\": \"O trecho menciona uma paciente idosa, e o conceito de 'Senile keratoma' é relevante devido à sua associação com o envelhecimento e a pele, o que é comum em pacientes dessa faixa etária.\"\n}\n```"
+    },
+    {
+      "chunk": "21/08 | MEI 23/08 | UTI 28/08 | MEI 02/09 PRÉVIO: # FA paroxística # HAS # IC - Ecocardio 21/08: FE",
+      "concepts": [
+        {
+          "conceptId": 261870001,
+          "term": "Kamituga. Kamituga (qualifier value)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Fibrilação atrial paroxística\", \n  \"justificativa\": \"O trecho menciona 'FA paroxística', que se refere à fibrilação atrial paroxística, um diagnóstico relevante considerando o histórico do paciente.\" \n}\n```"
+    },
+    {
+      "chunk": "Ecocardio 21/08: FE 70%. Esclerose valvar aórtica não obstrutiva com regurgitação leve. Ventrículo",
+      "concepts": [
+        {
+          "conceptId": 201097003,
+          "term": "Senile keratoma. Senile keratoma (disorder)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Esclerose valvar aórtica não obstrutiva com regurgitação leve\", \n  \"justificativa\": \"O trecho menciona especificamente a esclerose valvar aórtica e a regurgitação leve, que são condições cardíacas relevantes, enquanto o conceito candidato apresentado não se relaciona com o contexto do ecocardiograma.\" \n}\n```"
+    },
+    {
+      "chunk": "leve. Ventrículo esquerdo com hipertrofia excêntrica e função sistólica preservada. Disfunção",
+      "concepts": [
+        {
+          "conceptId": 253537005,
+          "term": "Diffuse hypoplasia of left ventricle. Diffuse hypoplasia of left ventricle (disorder)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Hipertrofia excêntrica do ventrículo esquerdo\", \n  \"justificativa\": \"O trecho menciona hipertrofia excêntrica do ventrículo esquerdo, que é um diagnóstico relevante, enquanto o conceito candidato refere-se a hipoplasia, que não se aplica ao caso.\" \n}\n```"
+    },
+    {
+      "chunk": "Disfunção diastólica grau 1. Mitroesclerose. Regurgitação mitral mínima. Dilatação atrial esquerda.",
+      "concepts": [
+        {
+          "conceptId": 201097003,
+          "term": "Senile keratoma. Senile keratoma (disorder)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Disfunção diastólica grau 1\", \n  \"justificativa\": \"O trecho menciona disfunção diastólica, que é uma condição cardíaca relevante e não está relacionada ao conceito de senile keratoma apresentado.\" \n}\n```"
+    },
+    {
+      "chunk": "atrial esquerda. Regurgitação tricúspide mínima # Hipotireoidismo # Tabagista em remissão há 2",
+      "concepts": [
+        {
+          "conceptId": 285419000,
+          "term": "Main en griffe. Main en griffe (disorder)"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Hipotireoidismo\",\n  \"justificativa\": \"O trecho menciona explicitamente 'Hipotireoidismo', que é uma condição clínica relevante e reconhecida.\"\n}\n```"
+    },
+    {
+      "chunk": "em remissão há 2 meses MUC: rivaroxabana 20mg/dia, HCTZ 25mg, enalapril 20mg BID, t. metoprolol",
+      "concepts": [
+        {
+          "conceptId": 353829007,
+          "term": "Metaiodobenzylguanidine[131I]9.25MBq/mL diagnostic injection. MIBG[131I]9.25MBq/mL diagnostic injection. Metaiodobenzylguanidine[131I]9.25MBq/mL diagnostic injection (product)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Remissão de doença\", \n  \"justificativa\": \"O trecho menciona que o paciente está em remissão há 2 meses, o que indica uma resposta positiva ao tratamento e a ausência de sintomas da doença.\" \n}\n```"
+    },
+    {
+      "chunk": "BID, t. metoprolol 100mg BID, sinvastatina 40mg/noite, levotiroxina 50 mcg, salbutamol em crise de",
+      "concepts": [
+        {
+          "conceptId": 1217357002,
+          "term": "Product containing precisely metoprolol tartrate (as metoprolol succinate) 50 milligram and telmisartan 40 milligram/1 each conventional release and prolonged-release oral tablet (clinical drug). Metoprolol tartrate (as metoprolol succinate) 50 mg and telmisartan 40 mg conventional release and prolonged-release oral tablet"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Product containing precisely metoprolol tartrate (as metoprolol succinate) 50 milligram and telmisartan 40 milligram/1 each conventional release and prolonged-release oral tablet (clinical drug)\",\n  \"justificativa\": \"O trecho menciona o uso de metoprolol, um beta-bloqueador, que é frequentemente utilizado no tratamento de hipertensão e outras condições cardiovasculares. O conceito selecionado é relevante pois descreve a formulação do metoprolol utilizada.\"\n}\n```"
+    },
+    {
+      "chunk": "em crise de dispneia HDA (21/08): Paciente com queixa de dor torácica em \"fincada\" do lado direito,",
+      "concepts": [
+        {
+          "conceptId": 35743001,
+          "term": "Pendular nystagmus. Pendular nystagmus (disorder)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Dispneia\", \n  \"justificativa\": \"A queixa de dispneia e dor torácica sugere um problema respiratório ou cardiovascular, que é mais relevante do que o nistagmo pendular mencionado.\" \n}\n```"
+    },
+    {
+      "chunk": "do lado direito, com início há 3 dias. Refere crises de dor de aproximadamente 20 minutos, não",
+      "concepts": [
+        {
+          "conceptId": 156024009,
+          "term": "Mittelschmerz. Mittelschmerz (finding)"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Mittelschmerz\",\n  \"justificativa\": \"Os sintomas descritos, como dor localizada do lado direito com início recente e crises de dor, são compatíveis com Mittelschmerz, que é a dor associada à ovulação.\"\n}\n```"
+    },
+    {
+      "chunk": "20 minutos, não associada ao esforço físico. Menciona que tem apresentado dispneia associada aos",
+      "concepts": [
+        {
+          "conceptId": 160646008,
+          "term": "FITT activity level 0; no mod/vig activity of 20 mins duratn. FITT activity level 0. Frequency-Intensity-Time-Type (FITT) activity level 0; no moderate or vigorous activity with a duration of 20 minutes. Frequency-intensity-time-type activity level 0; no moderate or vigorous activity with a duration of 20 minutes (finding). Frequency-intensity-time-type activity level 0; no moderate or vigorous activity with a duration of 20 minutes"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"FITT activity level 0; no moderate or vigorous activity with a duration of 20 minutes\",\n  \"justificativa\": \"O trecho menciona a dispneia não associada ao esforço físico, o que sugere que a atividade física é limitada, refletindo um nível de atividade FITT de 0.\"\n}\n```"
+    },
+    {
+      "chunk": "associada aos médios esforços. Nega batida, refere alguns estresses. ATUAL # Dor torácica tipo C/D",
+      "concepts": [
+        {
+          "conceptId": 154399001,
+          "term": "Tinea pedis. Tinea pedis (disorder)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Dor torácica tipo C/D\", \n  \"justificativa\": \"O trecho menciona dor torácica, que é um sintoma relevante e não está relacionado ao conceito de Tinea pedis, que se refere a uma infecção fúngica nos pés.\" \n}\n```"
+    },
+    {
+      "chunk": "torácica tipo C/D - provavelmente não anginosa :: Tropononina sem curva (10,6 -> 11,9) ::",
+      "concepts": [
+        {
+          "conceptId": 112025009,
+          "term": "D-tryptophan N-acetyltransferase (substance). Acetyl-CoA-D-tryptophan-alpha-N-acetyltransferase. D-tryptophan acetyltransferase. D-tryptophan N-acetyltransferase"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Dor torácica não anginosa\",\n  \"justificativa\": \"O trecho menciona dor torácica tipo C/D, que é descrita como provavelmente não anginosa, indicando que a dor não é de origem cardíaca típica.\"\n}\n```"
+    },
+    {
+      "chunk": "(10,6 -> 11,9) :: Alterações dinâmicas no ECG: inversão de T em DII, DII e AVF :: Heart Score",
+      "concepts": [
+        {
+          "conceptId": 142047003,
+          "term": "ECG: supraventricular arrhythmia. ECG: supraventricular arrhythmia (finding)"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"ECG: supraventricular arrhythmia (finding)\",\n  \"justificativa\": \"A inversão da onda T em DII, DIII e AVF sugere uma alteração elétrica que pode estar associada a arritmias supraventriculares.\"\n}\n```"
+    },
+    {
+      "chunk": "AVF :: Heart Score 1+1+2+1+0=4 :: Cintilo miocárdica 28/08: Discreta área de hipoatividade",
+      "concepts": [
+        {
+          "conceptId": 142047003,
+          "term": "ECG: supraventricular arrhythmia. ECG: supraventricular arrhythmia (finding)"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"ECG: supraventricular arrhythmia (finding)\",\n  \"justificativa\": \"A presença de uma área de hipoatividade na cintilografia miocárdica e a pontuação do Heart Score sugerem uma possível arritmia supraventricular, que pode estar relacionada a problemas cardíacos subjacentes.\"\n}\n```"
+    },
+    {
+      "chunk": "de hipoatividade ântero-apical de etiologia a ser esclarecida. Não realizou a etapa de estresse a",
+      "concepts": [
+        {
+          "conceptId": 56618003,
+          "term": "Pseudaspidodera jnanendre. Pseudaspidodera jnanendre (organism)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Hipoatividade ântero-apical\", \n  \"justificativa\": \"O trecho menciona especificamente hipoatividade ântero-apical, que é um achado clínico relevante, enquanto o conceito candidato apresentado refere-se a um organismo e não se relaciona diretamente com a condição clínica descrita.\" \n}\n```"
+    },
+    {
+      "chunk": "etapa de estresse a pedido do médico assistente. # Queda hematimétrica por HDA ativa :: Hb: 12",
+      "concepts": [
+        {
+          "conceptId": 237124006,
+          "term": "Haematopyometra. Hematopyometra. Hematopyometra (disorder)"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Hematopyometra (disorder)\",\n  \"justificativa\": \"O trecho menciona uma queda hematimétrica e HDA ativa, o que pode estar relacionado a condições que envolvem hemorragia e acúmulo de sangue, como a hematopyometra.\"\n}\n```"
+    },
+    {
+      "chunk": "HDA ativa :: Hb: 12 >11.9>10,6>8,7>8>5,5 ;; EDA Sangramento ativo em porejamento em D2 - provável",
+      "concepts": [
+        {
+          "conceptId": 256123000,
+          "term": "HDI - 1,6-Hexamethylene di-isocyanate. 1,6-hexamethylene di-isocyanate (substance). 1,6-hexamethylene di-isocyanate"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"HDA ativa\",\n  \"justificativa\": \"O trecho menciona 'HDA ativa' e 'sangramento ativo', indicando uma condição hemorrágica que é o foco principal do prontuário.\"\n}\n```"
+    },
+    {
+      "chunk": "em D2 - provável lesão de Dieulafoy - mantendo sangramento ativo mesmo após tratamento endoscópico",
+      "concepts": [
+        {
+          "conceptId": 1144302003,
+          "term": "At high risk of bleeding due to vitamin K epoxide reductase complex 1 rapid metabolizer. At high risk of bleeding due to vitamin K epoxide reductase complex 1 rapid metabolizer (finding). At high risk of bleeding due to VKORC1 (vitamin K epoxide reductase complex 1) rapid metabolizer. At high risk of bleeding due to vitamin K epoxide reductase complex 1 rapid metaboliser. At high risk of bleeding due to VKORC1 (vitamin K epoxide reductase complex 1) rapid metaboliser"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Lesão de Dieulafoy\",\n  \"justificativa\": \"O trecho menciona especificamente uma 'provável lesão de Dieulafoy' e a presença de sangramento ativo, o que é mais relevante do que o risco de sangramento associado ao metabolismo da vitamina K.\"\n}\n```"
+    },
+    {
+      "chunk": "endoscópico adequado (2 clipes + escleroterapia) :: AngioTC na urgencia: retropneumoperitonio ->",
+      "concepts": [
+        {
+          "conceptId": 61621000087108,
+          "term": "Fluoroscopy guided percutaneous transluminal angioplasty with insertion of drug-eluting stent into coronary intermediate artery with contrast. Percutaneous coronary intervention with insertion of drug-eluting stent into ramus intermedius branch of left main coronary artery using fluoroscopic guidance with contrast. Percutaneous transluminal angioplasty with insertion of drug-eluting stent into coronary intermediate artery using fluoroscopic guidance with contrast (procedure). PCI (percutaneous coronary intervention) of RI (ramus intermedius) branch of LMCA (left main coronary artery) with insertion of DES (drug-eluting stent) using fluoroscopic guidance with contrast. Percutaneous transluminal angioplasty with insertion of drug-eluting stent into coronary intermediate artery using fluoroscopic guidance with contrast"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Retropneumoperitonio\",\n  \"justificativa\": \"O trecho menciona 'retropneumoperitonio', que é uma condição clínica relevante e pode ser considerada um diagnóstico potencial, especialmente em um contexto de urgência.\"\n}\n```"
+    },
+    {
+      "chunk": "-> avaliada pela CG, que indicou tratamento conservador e TC de controle em 48h :: 3 CHADs desde",
+      "concepts": [
+        {
+          "conceptId": 763007002,
+          "term": "Assessment using congestive heart failure, hypertension, age 75 years or older, diabetes mellitus and previous stroke or transient ischemic attack score (procedure). Assessment using CHADS2 (congestive heart failure, hypertension, age 75 years or older, diabetes mellitus and previous stroke or transient ischemic attack) score. Assessment using congestive heart failure, hypertension, age 75 years or older, diabetes mellitus and previous stroke or transient ischemic attack score. Assessment using congestive heart failure, hypertension, age 75 years or older, diabetes mellitus and previous stroke or transient ischaemic attack score. Assessment using CHADS2 (congestive heart failure, hypertension, age 75 years or older, diabetes mellitus and previous stroke or transient ischaemic attack) score"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Assessment using congestive heart failure, hypertension, age 75 years or older, diabetes mellitus and previous stroke or transient ischemic attack score (procedure)\",\n  \"justificativa\": \"O trecho menciona '3 CHADs', que se refere ao escore CHADS2, utilizado para avaliar o risco de acidente vascular cerebral em pacientes com fibrilação atrial, considerando fatores como insuficiência cardíaca, hipertensão, idade, diabetes e histórico de AVC. Isso indica a necessidade de monitoramento e tratamento adequado.\"\n}\n```"
+    },
+    {
+      "chunk": ":: 3 CHADs desde 27/08 :: Hb recentes: 6,8 -> 7,5 (03/09) # Herpes Zoster identificado em 26/08 ->",
+      "concepts": [
+        {
+          "conceptId": 257112007,
+          "term": "DQB1*0603. DQB1*0603 (substance)"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Herpes Zoster\",\n  \"justificativa\": \"O trecho menciona explicitamente a identificação de Herpes Zoster, que é uma condição clínica relevante e deve ser considerada como diagnóstico principal.\"\n}\n```"
+    },
+    {
+      "chunk": "em 26/08 -> possivelmente a causa da dor torácica ATB: Aciclovir 28/08 - atual PPTZ 28/08 - atual",
+      "concepts": [
+        {
+          "conceptId": 201097003,
+          "term": "Senile keratoma. Senile keratoma (disorder)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Dor torácica\", \n  \"justificativa\": \"O trecho menciona dor torácica, que é um sintoma relevante e pode estar relacionado a várias condições médicas, enquanto o conceito de senile keratoma não é pertinente ao quadro apresentado.\" \n}\n```"
+    },
+    {
+      "chunk": "PPTZ 28/08 - atual SUBJETIVO Encontro paciente em leito de enfermaria, desacompanhada. Relata",
+      "concepts": [
+        {
+          "conceptId": 69371006,
+          "term": "Nurse and patient conference. Nurse and patient conference (procedure)"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Nurse and patient conference (procedure)\",\n  \"justificativa\": \"O trecho menciona um encontro com o paciente, o que sugere uma interação formal entre enfermeiro e paciente, caracterizando uma conferência.\"\n}\n```"
+    },
+    {
+      "chunk": "Relata melhora completa da dor abdominal e ausência de novas evacuações melenadas. Relata boa",
+      "concepts": [
+        {
+          "conceptId": 444746004,
+          "term": "Acute exacerbation of chronic abdominal pain (finding). Acute exacerbation of chronic abdominal pain"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Acute exacerbation of chronic abdominal pain (finding)\",\n  \"justificativa\": \"O paciente relata melhora completa da dor abdominal, o que sugere que a exacerbação aguda da dor abdominal crônica foi tratada ou resolvida.\"\n}\n```"
+    },
+    {
+      "chunk": "Relata boa aceitação VO. Sem novas queixas. OBJETIVO BEG, mucosas hipocoradas, LOC.. Eupneica em aa",
+      "concepts": [
+        {
+          "conceptId": 201097003,
+          "term": "Senile keratoma. Senile keratoma (disorder)"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Senile keratoma (disorder)\",\n  \"justificativa\": \"O trecho menciona 'mucosas hipocoradas', o que pode estar relacionado a alterações cutâneas, e o conceito de 'Senile keratoma' é relevante para condições dermatológicas em pacientes mais velhos.\"\n}\n```"
+    },
+    {
+      "chunk": "Eupneica em aa SVs 24h PASS 120-130 | FC 74 -79 | Sat > 95% em aa | Afebril HGT 88-106-85 | Diurese",
+      "concepts": [
+        {
+          "conceptId": 317411009,
+          "term": "Mesalazine 2g/59mL enema (product). Mesalazine 2g/59mL enema. Mesalamine 2g/59mL enema"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Eupneia\",\n  \"justificativa\": \"O trecho menciona 'eupneica', que indica uma respiração normal, sugerindo que o paciente não apresenta dificuldades respiratórias, o que é um dado clínico relevante.\"\n}\n```"
+    },
+    {
+      "chunk": "88-106-85 | Diurese presente e evacuações presentes - pastosas. Sem episódios de melena recentes",
+      "concepts": [
+        {
+          "conceptId": 280901000,
+          "term": "Couvade. Couvade (disorder)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Couvade. Couvade (disorder)\", \n  \"justificativa\": \"O trecho menciona diurese e evacuações, mas não há evidências claras de um distúrbio gastrointestinal ou renal. O conceito de Couvade pode ser considerado devido à menção de sintomas que podem estar relacionados a reações emocionais ou psicológicas, embora não seja o diagnóstico mais direto.\" \n}\n```"
+    },
+    {
+      "chunk": "de melena recentes AC: BNF, RR, 2T, sem sopros AP: MVUD, SRA, eupneica ABD: Depressível, globoso,",
+      "concepts": [
+        {
+          "conceptId": 201097003,
+          "term": "Senile keratoma. Senile keratoma (disorder)"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Melena\",\n  \"justificativa\": \"O trecho menciona 'melena recentes', que se refere a evacuações com sangue digerido, indicando um possível sangramento gastrointestinal. O conceito de 'Senile keratoma' não é relevante para o quadro clínico apresentado.\"\n}\n```"
+    },
+    {
+      "chunk": "globoso, sem dor a palpação superficial ou profunda, não palpo massas ou megalias, sem sinais de",
+      "concepts": [
+        {
+          "conceptId": 201097003,
+          "term": "Senile keratoma. Senile keratoma (disorder)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Senile keratoma (disorder)\", \n  \"justificativa\": \"O trecho menciona características de uma lesão cutânea, e o senile keratoma é uma condição que pode se manifestar de forma semelhante, embora não haja dor ou massas palpáveis.\" \n}\n```"
+    },
+    {
+      "chunk": "sem sinais de peritonismo EXT: aquecidas e perfundidas, TEC <3s, sem edema ou empastamento de",
+      "concepts": [
+        {
+          "conceptId": 1163567007,
+          "term": "Belumosudil mesilate. Belumosudil mesilate (substance). Belumosudil mesylate"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"sem sinais de peritonismo\",\n  \"justificativa\": \"O trecho indica a ausência de sinais de peritonismo, o que é relevante para descartar condições abdominais agudas, mas não se relaciona diretamente com o conceito candidato fornecido.\"\n}\n```"
+    },
+    {
+      "chunk": "ou empastamento de panturrilha] IMPRESSÃO: Octogenária com funcionalidades preservadas previamente,",
+      "concepts": [
+        {
+          "conceptId": 34804001,
+          "term": "Skrjabinema ovis. Skrjabinema ovis (organism)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Skrjabinema ovis. Skrjabinema ovis (organism)\", \n  \"justificativa\": \"O conceito refere-se a um organismo específico, mas não é relevante para o contexto clínico apresentado, que menciona empastamento de panturrilha e a condição de uma octogenária. Não há informações suficientes para um diagnóstico clínico adequado.\" \n}\n```"
+    },
+    {
+      "chunk": "previamente, interna em contexto de dor torácica atípica e alterações dinâmicas em ECG, sem curva",
+      "concepts": [
+        {
+          "conceptId": 32574007,
+          "term": "Past myocardial infarction diagnosed on ECG AND/OR other special investigation, but currently presenting no symptoms. Past myocardial infarction diagnosed on electrocardiogram AND/OR other special investigation, but currently presenting no symptoms (disorder). Past myocardial infarction diagnosed on electrocardiogram AND/OR other special investigation, but currently presenting no symptoms"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Past myocardial infarction diagnosed on ECG AND/OR other special investigation, but currently presenting no symptoms\",\n  \"justificativa\": \"O trecho menciona dor torácica atípica e alterações dinâmicas em ECG, o que pode indicar um histórico de infarto do miocárdio, mesmo que atualmente não apresente sintomas.\"\n}\n```"
+    },
+    {
+      "chunk": "em ECG, sem curva de troponinas - realizada estratificação não invasiva, sem achados conclusivos",
+      "concepts": [
+        {
+          "conceptId": 734521009,
+          "term": "Pasireotide pamoate (substance). Pasireotide pamoate. Pasireotide embonate"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Pasireotide pamoate (substance)\",\n  \"justificativa\": \"O trecho menciona a realização de um ECG e a estratificação não invasiva, mas não apresenta achados conclusivos, o que pode indicar a necessidade de tratamento com Pasireotide pamoate, uma substância utilizada em contextos clínicos específicos.\"\n}\n```"
+    },
+    {
+      "chunk": "achados conclusivos devido ausência de etapa de estresse. Intercorre com HDA e queda hematimétrica",
+      "concepts": [
+        {
+          "conceptId": 201097003,
+          "term": "Senile keratoma. Senile keratoma (disorder)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"HDA (Hemorragia Digestiva Alta)\", \n  \"justificativa\": \"O trecho menciona 'HDA' e 'queda hematimétrica', que são indicativos de uma condição clínica relevante, enquanto o conceito de 'Senile keratoma' não se relaciona com os achados apresentados.\" \n}\n```"
+    },
+    {
+      "chunk": "queda hematimétrica com necessidade de transferência para UTI - sem sucesso em tentativas de",
+      "concepts": [
+        {
+          "conceptId": 700432001,
+          "term": "Referral to hematuria clinic (procedure). Referral to haematuria clinic. Referral to hematuria clinic"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Referral to hematuria clinic (procedure)\",\n  \"justificativa\": \"A queda hematimétrica sugere a presença de hemorragia, e a transferência para UTI indica a gravidade da condição, tornando a referência a uma clínica de hematuria relevante.\"\n}\n```"
+    },
+    {
+      "chunk": "em tentativas de hemostase endoscópica. Identificado pneumoretroperitônio pós EDA -> em manejo",
+      "concepts": [
+        {
+          "conceptId": 201097003,
+          "term": "Senile keratoma. Senile keratoma (disorder)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Pneumoretroperitônio\", \n  \"justificativa\": \"O trecho menciona pneumoretroperitônio, que é uma condição relevante no contexto de manejo pós-endoscopia, enquanto o conceito candidato apresentado não é pertinente ao caso.\" \n}\n```"
+    },
+    {
+      "chunk": "EDA -> em manejo conservador e sem novas quedas hematimétricas. # Devido a probabilidade",
+      "concepts": [
+        {
+          "conceptId": 261870001,
+          "term": "Kamituga. Kamituga (qualifier value)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Kamituga. Kamituga (qualifier value)\", \n  \"justificativa\": \"O trecho menciona manejo conservador e ausência de novas quedas hematimétricas, sugerindo uma condição estável, mas a terminologia 'Kamituga' não parece se relacionar diretamente com o contexto clínico apresentado.\" \n}\n```"
+    },
+    {
+      "chunk": "a probabilidade intermediária de SCA/DAC, associada ao alto risco de ressangramento com DAPT,",
+      "concepts": [
+        {
+          "conceptId": 698466009,
+          "term": "At risk of graft-versus-host disease associated with transfusion. At increased risk of graft-versus-host disease associated with transfusion (finding). At increased risk of graft-versus-host disease associated with transfusion"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"At risk of graft-versus-host disease associated with transfusion\",\n  \"justificativa\": \"O trecho menciona risco elevado de ressangramento, o que pode estar relacionado a complicações como a doença do enxerto contra o hospedeiro, especialmente em contextos de transfusão.\"\n}\n```"
+    },
+    {
+      "chunk": "com DAPT, optado pelo não seguimento de investigação coronariana CONDUTA: Sem necessidade de CHAD",
+      "concepts": [
+        {
+          "conceptId": 61601000087102,
+          "term": "PCI (percutaneous coronary intervention) of distal LMCA (left main coronary artery) with insertion of DES (drug-eluting stent) using fluoroscopic guidance with contrast. Percutaneous coronary intervention with insertion of drug-eluting stent into distal segment of left main coronary artery using fluoroscopic guidance with contrast. Fluoroscopy guided percutaneous transluminal angioplasty with insertion of drug-eluting stent into distal segment of left main coronary artery with contrast. Percutaneous transluminal angioplasty with insertion of drug-eluting stent into distal segment of left main coronary artery using fluoroscopic guidance with contrast (procedure). Percutaneous transluminal angioplasty with insertion of drug-eluting stent into distal segment of left main coronary artery using fluoroscopic guidance with contrast"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"PCI (percutaneous coronary intervention) of distal LMCA (left main coronary artery) with insertion of DES (drug-eluting stent) using fluoroscopic guidance with contrast\",\n  \"justificativa\": \"O trecho menciona a opção por não seguir com investigação coronariana, o que sugere que a intervenção coronariana percutânea (PCI) pode ter sido considerada, especialmente em relação ao uso de DAPT (dupla antiagregação plaquetária), que é comum após a colocação de stents.\"\n}\n```"
+    },
+    {
+      "chunk": "necessidade de CHAD por ora - vigio exteriorizações Mantenho Ferro EV com plano de 5 dias de",
+      "concepts": [
+        {
+          "conceptId": 80319003,
+          "term": "Cholecystojejunostomy. Cholecystojejunostomy (procedure)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Cholecystojejunostomy\", \n  \"justificativa\": \"O trecho menciona a necessidade de CHAD, que pode estar relacionado a intervenções cirúrgicas, e o conceito de Cholecystojejunostomy é relevante no contexto de procedimentos cirúrgicos relacionados ao trato biliar.\" \n}\n```"
+    },
+    {
+      "chunk": "plano de 5 dias de reposição - D1 03/09 Mantenho omeprazol EV por ora Aguarda TC para",
+      "concepts": [
+        {
+          "conceptId": 80319003,
+          "term": "Cholecystojejunostomy. Cholecystojejunostomy (procedure)"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Cholecystojejunostomy\",\n  \"justificativa\": \"O trecho menciona um plano de tratamento que inclui a administração de omeprazol, sugerindo um contexto de manejo pós-operatório, possivelmente relacionado a uma cirurgia biliar, como a colecistojunostomia.\"\n}\n```"
+    },
+    {
+      "chunk": "ora Aguarda TC para acompanhamento de pneumoretroperitonio Aguarda consultoria da odontologia Plano",
+      "concepts": [
+        {
+          "conceptId": 80319003,
+          "term": "Cholecystojejunostomy. Cholecystojejunostomy (procedure)"
+        }
+      ],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Pneumoretroperitonio\",\n  \"justificativa\": \"O trecho menciona especificamente 'pneumoretroperitonio', que é uma condição clínica relevante a ser considerada, enquanto o conceito de 'Cholecystojejunostomy' não se relaciona diretamente com a situação apresentada.\"\n}\n```"
+    },
+    {
+      "chunk": "odontologia Plano de Labs para sábado PLANO: - Discutir necessidade de retorno à anticoagulação",
+      "concepts": [
+        {
+          "conceptId": 80319003,
+          "term": "Cholecystojejunostomy. Cholecystojejunostomy (procedure)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Retorno à anticoagulação\", \n  \"justificativa\": \"O trecho menciona a discussão sobre a necessidade de retorno à anticoagulação, que é um aspecto importante na gestão de pacientes que podem ter condições que requerem anticoagulação, como trombose ou fibrilação atrial.\" \n}\n```"
+    },
+    {
+      "chunk": "à anticoagulação plena, visto FA paroxística pouco provável R1 MEI João Zanata | R2 MEI Fernanda |",
+      "concepts": [
+        {
+          "conceptId": 130667003,
+          "term": "Argingipain. Gingipain 1. Gingipain R. Gingipain R (substance)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Fibrilação atrial paroxística\", \n  \"justificativa\": \"O trecho menciona 'FA paroxística', que se refere à fibrilação atrial paroxística, uma condição cardíaca relevante para o contexto de anticoagulação.\" \n}\n```"
+    },
+    {
+      "chunk": "| R2 MEI Fernanda | Eq. Cláudia Evoluído por: JOAO VITOR MARTINELLI ZANATA - CRM: 59497 em 04/09/25",
+      "concepts": [
+        {
+          "conceptId": 36792004,
+          "term": "Acacia berlandieri. Guajillo. Acacia berlandieri (organism)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Acacia berlandieri (organism)\", \n  \"justificativa\": \"O conceito refere-se a uma planta específica, mas não parece ser relevante para um diagnóstico clínico, indicando que o trecho pode estar incorreto ou fora de contexto.\" \n}\n```"
+    },
+    {
+      "chunk": "59497 em 04/09/25 às 12:48",
+      "concepts": [
+        {
+          "conceptId": 75635009,
+          "term": "Urobilin. Urobilin (substance)"
+        }
+      ],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Urobilin. Urobilin (substance)\", \n  \"justificativa\": \"O conceito de urobilin é relevante, pois pode indicar alterações na função hepática ou renal, sendo importante para o diagnóstico de condições como icterícia ou distúrbios urinários.\" \n}\n```"
+    }
+  ],
+  "questions_map": [
+    {
+      "chunk": "A419 - ( Outras septicemias ) Septicemia nao especificada Evolução HNSC: ### MEDICINA INTERNA ###",
+      "questions": [
+        "O paciente apresenta Haematopyometra. Hematopyometra. Hematopyometra (disorder)?"
+      ]
+    },
+    {
+      "chunk": "INTERNA ### Maria Cecilia Araujo de Oliveira, 84 anos Registro: 24926612 DI EMER 21/08 | MEI 23/08",
+      "questions": [
+        "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?"
+      ]
+    },
+    {
+      "chunk": "21/08 | MEI 23/08 | UTI 28/08 | MEI 02/09 PRÉVIO: # FA paroxística # HAS # IC - Ecocardio 21/08: FE",
+      "questions": [
+        "O paciente apresenta Kamituga. Kamituga (qualifier value)?"
+      ]
+    },
+    {
+      "chunk": "Ecocardio 21/08: FE 70%. Esclerose valvar aórtica não obstrutiva com regurgitação leve. Ventrículo",
+      "questions": [
+        "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?"
+      ]
+    },
+    {
+      "chunk": "leve. Ventrículo esquerdo com hipertrofia excêntrica e função sistólica preservada. Disfunção",
+      "questions": [
+        "O paciente apresenta Diffuse hypoplasia of left ventricle. Diffuse hypoplasia of left ventricle (disorder)?"
+      ]
+    },
+    {
+      "chunk": "Disfunção diastólica grau 1. Mitroesclerose. Regurgitação mitral mínima. Dilatação atrial esquerda.",
+      "questions": [
+        "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?"
+      ]
+    },
+    {
+      "chunk": "atrial esquerda. Regurgitação tricúspide mínima # Hipotireoidismo # Tabagista em remissão há 2",
+      "questions": [
+        "O paciente apresenta Main en griffe. Main en griffe (disorder)?"
+      ]
+    },
+    {
+      "chunk": "em remissão há 2 meses MUC: rivaroxabana 20mg/dia, HCTZ 25mg, enalapril 20mg BID, t. metoprolol",
+      "questions": [
+        "O paciente apresenta Metaiodobenzylguanidine[131I]9.25MBq/mL diagnostic injection. MIBG[131I]9.25MBq/mL diagnostic injection. Metaiodobenzylguanidine[131I]9.25MBq/mL diagnostic injection (product)?"
+      ]
+    },
+    {
+      "chunk": "BID, t. metoprolol 100mg BID, sinvastatina 40mg/noite, levotiroxina 50 mcg, salbutamol em crise de",
+      "questions": [
+        "O paciente apresenta Product containing precisely metoprolol tartrate (as metoprolol succinate) 50 milligram and telmisartan 40 milligram/1 each conventional release and prolonged-release oral tablet (clinical drug). Metoprolol tartrate (as metoprolol succinate) 50 mg and telmisartan 40 mg conventional release and prolonged-release oral tablet?"
+      ]
+    },
+    {
+      "chunk": "em crise de dispneia HDA (21/08): Paciente com queixa de dor torácica em \"fincada\" do lado direito,",
+      "questions": [
+        "O paciente apresenta Pendular nystagmus. Pendular nystagmus (disorder)?"
+      ]
+    },
+    {
+      "chunk": "do lado direito, com início há 3 dias. Refere crises de dor de aproximadamente 20 minutos, não",
+      "questions": [
+        "O paciente apresenta Mittelschmerz. Mittelschmerz (finding)?"
+      ]
+    },
+    {
+      "chunk": "20 minutos, não associada ao esforço físico. Menciona que tem apresentado dispneia associada aos",
+      "questions": [
+        "O paciente apresenta FITT activity level 0; no mod/vig activity of 20 mins duratn. FITT activity level 0. Frequency-Intensity-Time-Type (FITT) activity level 0; no moderate or vigorous activity with a duration of 20 minutes. Frequency-intensity-time-type activity level 0; no moderate or vigorous activity with a duration of 20 minutes (finding). Frequency-intensity-time-type activity level 0; no moderate or vigorous activity with a duration of 20 minutes?"
+      ]
+    },
+    {
+      "chunk": "associada aos médios esforços. Nega batida, refere alguns estresses. ATUAL # Dor torácica tipo C/D",
+      "questions": [
+        "O paciente apresenta Tinea pedis. Tinea pedis (disorder)?"
+      ]
+    },
+    {
+      "chunk": "torácica tipo C/D - provavelmente não anginosa :: Tropononina sem curva (10,6 -> 11,9) ::",
+      "questions": [
+        "O paciente apresenta D-tryptophan N-acetyltransferase (substance). Acetyl-CoA-D-tryptophan-alpha-N-acetyltransferase. D-tryptophan acetyltransferase. D-tryptophan N-acetyltransferase?"
+      ]
+    },
+    {
+      "chunk": "(10,6 -> 11,9) :: Alterações dinâmicas no ECG: inversão de T em DII, DII e AVF :: Heart Score",
+      "questions": [
+        "O paciente apresenta ECG: supraventricular arrhythmia. ECG: supraventricular arrhythmia (finding)?"
+      ]
+    },
+    {
+      "chunk": "AVF :: Heart Score 1+1+2+1+0=4 :: Cintilo miocárdica 28/08: Discreta área de hipoatividade",
+      "questions": [
+        "O paciente apresenta ECG: supraventricular arrhythmia. ECG: supraventricular arrhythmia (finding)?"
+      ]
+    },
+    {
+      "chunk": "de hipoatividade ântero-apical de etiologia a ser esclarecida. Não realizou a etapa de estresse a",
+      "questions": [
+        "O paciente apresenta Pseudaspidodera jnanendre. Pseudaspidodera jnanendre (organism)?"
+      ]
+    },
+    {
+      "chunk": "etapa de estresse a pedido do médico assistente. # Queda hematimétrica por HDA ativa :: Hb: 12",
+      "questions": [
+        "O paciente apresenta Haematopyometra. Hematopyometra. Hematopyometra (disorder)?"
+      ]
+    },
+    {
+      "chunk": "HDA ativa :: Hb: 12 >11.9>10,6>8,7>8>5,5 ;; EDA Sangramento ativo em porejamento em D2 - provável",
+      "questions": [
+        "O paciente apresenta HDI - 1,6-Hexamethylene di-isocyanate. 1,6-hexamethylene di-isocyanate (substance). 1,6-hexamethylene di-isocyanate?"
+      ]
+    },
+    {
+      "chunk": "em D2 - provável lesão de Dieulafoy - mantendo sangramento ativo mesmo após tratamento endoscópico",
+      "questions": [
+        "O paciente apresenta At high risk of bleeding due to vitamin K epoxide reductase complex 1 rapid metabolizer. At high risk of bleeding due to vitamin K epoxide reductase complex 1 rapid metabolizer (finding). At high risk of bleeding due to VKORC1 (vitamin K epoxide reductase complex 1) rapid metabolizer. At high risk of bleeding due to vitamin K epoxide reductase complex 1 rapid metaboliser. At high risk of bleeding due to VKORC1 (vitamin K epoxide reductase complex 1) rapid metaboliser?"
+      ]
+    },
+    {
+      "chunk": "endoscópico adequado (2 clipes + escleroterapia) :: AngioTC na urgencia: retropneumoperitonio ->",
+      "questions": [
+        "O paciente apresenta Fluoroscopy guided percutaneous transluminal angioplasty with insertion of drug-eluting stent into coronary intermediate artery with contrast. Percutaneous coronary intervention with insertion of drug-eluting stent into ramus intermedius branch of left main coronary artery using fluoroscopic guidance with contrast. Percutaneous transluminal angioplasty with insertion of drug-eluting stent into coronary intermediate artery using fluoroscopic guidance with contrast (procedure). PCI (percutaneous coronary intervention) of RI (ramus intermedius) branch of LMCA (left main coronary artery) with insertion of DES (drug-eluting stent) using fluoroscopic guidance with contrast. Percutaneous transluminal angioplasty with insertion of drug-eluting stent into coronary intermediate artery using fluoroscopic guidance with contrast?"
+      ]
+    },
+    {
+      "chunk": "-> avaliada pela CG, que indicou tratamento conservador e TC de controle em 48h :: 3 CHADs desde",
+      "questions": [
+        "O paciente apresenta Assessment using congestive heart failure, hypertension, age 75 years or older, diabetes mellitus and previous stroke or transient ischemic attack score (procedure). Assessment using CHADS2 (congestive heart failure, hypertension, age 75 years or older, diabetes mellitus and previous stroke or transient ischemic attack) score. Assessment using congestive heart failure, hypertension, age 75 years or older, diabetes mellitus and previous stroke or transient ischemic attack score. Assessment using congestive heart failure, hypertension, age 75 years or older, diabetes mellitus and previous stroke or transient ischaemic attack score. Assessment using CHADS2 (congestive heart failure, hypertension, age 75 years or older, diabetes mellitus and previous stroke or transient ischaemic attack) score?"
+      ]
+    },
+    {
+      "chunk": ":: 3 CHADs desde 27/08 :: Hb recentes: 6,8 -> 7,5 (03/09) # Herpes Zoster identificado em 26/08 ->",
+      "questions": [
+        "O paciente apresenta DQB1*0603. DQB1*0603 (substance)?"
+      ]
+    },
+    {
+      "chunk": "em 26/08 -> possivelmente a causa da dor torácica ATB: Aciclovir 28/08 - atual PPTZ 28/08 - atual",
+      "questions": [
+        "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?"
+      ]
+    },
+    {
+      "chunk": "PPTZ 28/08 - atual SUBJETIVO Encontro paciente em leito de enfermaria, desacompanhada. Relata",
+      "questions": [
+        "O paciente apresenta Nurse and patient conference. Nurse and patient conference (procedure)?"
+      ]
+    },
+    {
+      "chunk": "Relata melhora completa da dor abdominal e ausência de novas evacuações melenadas. Relata boa",
+      "questions": [
+        "O paciente apresenta Acute exacerbation of chronic abdominal pain (finding). Acute exacerbation of chronic abdominal pain?"
+      ]
+    },
+    {
+      "chunk": "Relata boa aceitação VO. Sem novas queixas. OBJETIVO BEG, mucosas hipocoradas, LOC.. Eupneica em aa",
+      "questions": [
+        "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?"
+      ]
+    },
+    {
+      "chunk": "Eupneica em aa SVs 24h PASS 120-130 | FC 74 -79 | Sat > 95% em aa | Afebril HGT 88-106-85 | Diurese",
+      "questions": [
+        "O paciente apresenta Mesalazine 2g/59mL enema (product). Mesalazine 2g/59mL enema. Mesalamine 2g/59mL enema?"
+      ]
+    },
+    {
+      "chunk": "88-106-85 | Diurese presente e evacuações presentes - pastosas. Sem episódios de melena recentes",
+      "questions": [
+        "O paciente apresenta Couvade. Couvade (disorder)?"
+      ]
+    },
+    {
+      "chunk": "de melena recentes AC: BNF, RR, 2T, sem sopros AP: MVUD, SRA, eupneica ABD: Depressível, globoso,",
+      "questions": [
+        "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?"
+      ]
+    },
+    {
+      "chunk": "globoso, sem dor a palpação superficial ou profunda, não palpo massas ou megalias, sem sinais de",
+      "questions": [
+        "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?"
+      ]
+    },
+    {
+      "chunk": "sem sinais de peritonismo EXT: aquecidas e perfundidas, TEC <3s, sem edema ou empastamento de",
+      "questions": [
+        "O paciente apresenta Belumosudil mesilate. Belumosudil mesilate (substance). Belumosudil mesylate?"
+      ]
+    },
+    {
+      "chunk": "ou empastamento de panturrilha] IMPRESSÃO: Octogenária com funcionalidades preservadas previamente,",
+      "questions": [
+        "O paciente apresenta Skrjabinema ovis. Skrjabinema ovis (organism)?"
+      ]
+    },
+    {
+      "chunk": "previamente, interna em contexto de dor torácica atípica e alterações dinâmicas em ECG, sem curva",
+      "questions": [
+        "O paciente apresenta Past myocardial infarction diagnosed on ECG AND/OR other special investigation, but currently presenting no symptoms. Past myocardial infarction diagnosed on electrocardiogram AND/OR other special investigation, but currently presenting no symptoms (disorder). Past myocardial infarction diagnosed on electrocardiogram AND/OR other special investigation, but currently presenting no symptoms?"
+      ]
+    },
+    {
+      "chunk": "em ECG, sem curva de troponinas - realizada estratificação não invasiva, sem achados conclusivos",
+      "questions": [
+        "O paciente apresenta Pasireotide pamoate (substance). Pasireotide pamoate. Pasireotide embonate?"
+      ]
+    },
+    {
+      "chunk": "achados conclusivos devido ausência de etapa de estresse. Intercorre com HDA e queda hematimétrica",
+      "questions": [
+        "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?"
+      ]
+    },
+    {
+      "chunk": "queda hematimétrica com necessidade de transferência para UTI - sem sucesso em tentativas de",
+      "questions": [
+        "O paciente apresenta Referral to hematuria clinic (procedure). Referral to haematuria clinic. Referral to hematuria clinic?"
+      ]
+    },
+    {
+      "chunk": "em tentativas de hemostase endoscópica. Identificado pneumoretroperitônio pós EDA -> em manejo",
+      "questions": [
+        "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?"
+      ]
+    },
+    {
+      "chunk": "EDA -> em manejo conservador e sem novas quedas hematimétricas. # Devido a probabilidade",
+      "questions": [
+        "O paciente apresenta Kamituga. Kamituga (qualifier value)?"
+      ]
+    },
+    {
+      "chunk": "a probabilidade intermediária de SCA/DAC, associada ao alto risco de ressangramento com DAPT,",
+      "questions": [
+        "O paciente apresenta At risk of graft-versus-host disease associated with transfusion. At increased risk of graft-versus-host disease associated with transfusion (finding). At increased risk of graft-versus-host disease associated with transfusion?"
+      ]
+    },
+    {
+      "chunk": "com DAPT, optado pelo não seguimento de investigação coronariana CONDUTA: Sem necessidade de CHAD",
+      "questions": [
+        "O paciente apresenta PCI (percutaneous coronary intervention) of distal LMCA (left main coronary artery) with insertion of DES (drug-eluting stent) using fluoroscopic guidance with contrast. Percutaneous coronary intervention with insertion of drug-eluting stent into distal segment of left main coronary artery using fluoroscopic guidance with contrast. Fluoroscopy guided percutaneous transluminal angioplasty with insertion of drug-eluting stent into distal segment of left main coronary artery with contrast. Percutaneous transluminal angioplasty with insertion of drug-eluting stent into distal segment of left main coronary artery using fluoroscopic guidance with contrast (procedure). Percutaneous transluminal angioplasty with insertion of drug-eluting stent into distal segment of left main coronary artery using fluoroscopic guidance with contrast?"
+      ]
+    },
+    {
+      "chunk": "necessidade de CHAD por ora - vigio exteriorizações Mantenho Ferro EV com plano de 5 dias de",
+      "questions": [
+        "O paciente apresenta Cholecystojejunostomy. Cholecystojejunostomy (procedure)?"
+      ]
+    },
+    {
+      "chunk": "plano de 5 dias de reposição - D1 03/09 Mantenho omeprazol EV por ora Aguarda TC para",
+      "questions": [
+        "O paciente apresenta Cholecystojejunostomy. Cholecystojejunostomy (procedure)?"
+      ]
+    },
+    {
+      "chunk": "ora Aguarda TC para acompanhamento de pneumoretroperitonio Aguarda consultoria da odontologia Plano",
+      "questions": [
+        "O paciente apresenta Cholecystojejunostomy. Cholecystojejunostomy (procedure)?"
+      ]
+    },
+    {
+      "chunk": "odontologia Plano de Labs para sábado PLANO: - Discutir necessidade de retorno à anticoagulação",
+      "questions": [
+        "O paciente apresenta Cholecystojejunostomy. Cholecystojejunostomy (procedure)?"
+      ]
+    },
+    {
+      "chunk": "à anticoagulação plena, visto FA paroxística pouco provável R1 MEI João Zanata | R2 MEI Fernanda |",
+      "questions": [
+        "O paciente apresenta Argingipain. Gingipain 1. Gingipain R. Gingipain R (substance)?"
+      ]
+    },
+    {
+      "chunk": "| R2 MEI Fernanda | Eq. Cláudia Evoluído por: JOAO VITOR MARTINELLI ZANATA - CRM: 59497 em 04/09/25",
+      "questions": [
+        "O paciente apresenta Acacia berlandieri. Guajillo. Acacia berlandieri (organism)?"
+      ]
+    },
+    {
+      "chunk": "59497 em 04/09/25 às 12:48",
+      "questions": [
+        "O paciente apresenta Urobilin. Urobilin (substance)?"
+      ]
+    }
+  ],
+  "qna_results": [
+    {
+      "chunk": "A419 - ( Outras septicemias ) Septicemia nao especificada Evolução HNSC: ### MEDICINA INTERNA ###",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Haematopyometra. Hematopyometra. Hematopyometra (disorder)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "INTERNA ### Maria Cecilia Araujo de Oliveira, 84 anos Registro: 24926612 DI EMER 21/08 | MEI 23/08",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "21/08 | MEI 23/08 | UTI 28/08 | MEI 02/09 PRÉVIO: # FA paroxística # HAS # IC - Ecocardio 21/08: FE",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Kamituga. Kamituga (qualifier value)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "Ecocardio 21/08: FE 70%. Esclerose valvar aórtica não obstrutiva com regurgitação leve. Ventrículo",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "leve. Ventrículo esquerdo com hipertrofia excêntrica e função sistólica preservada. Disfunção",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Diffuse hypoplasia of left ventricle. Diffuse hypoplasia of left ventricle (disorder)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "Disfunção diastólica grau 1. Mitroesclerose. Regurgitação mitral mínima. Dilatação atrial esquerda.",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "atrial esquerda. Regurgitação tricúspide mínima # Hipotireoidismo # Tabagista em remissão há 2",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Main en griffe. Main en griffe (disorder)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "em remissão há 2 meses MUC: rivaroxabana 20mg/dia, HCTZ 25mg, enalapril 20mg BID, t. metoprolol",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Metaiodobenzylguanidine[131I]9.25MBq/mL diagnostic injection. MIBG[131I]9.25MBq/mL diagnostic injection. Metaiodobenzylguanidine[131I]9.25MBq/mL diagnostic injection (product)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "BID, t. metoprolol 100mg BID, sinvastatina 40mg/noite, levotiroxina 50 mcg, salbutamol em crise de",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Product containing precisely metoprolol tartrate (as metoprolol succinate) 50 milligram and telmisartan 40 milligram/1 each conventional release and prolonged-release oral tablet (clinical drug). Metoprolol tartrate (as metoprolol succinate) 50 mg and telmisartan 40 mg conventional release and prolonged-release oral tablet?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "em crise de dispneia HDA (21/08): Paciente com queixa de dor torácica em \"fincada\" do lado direito,",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Pendular nystagmus. Pendular nystagmus (disorder)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "do lado direito, com início há 3 dias. Refere crises de dor de aproximadamente 20 minutos, não",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Mittelschmerz. Mittelschmerz (finding)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "20 minutos, não associada ao esforço físico. Menciona que tem apresentado dispneia associada aos",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta FITT activity level 0; no mod/vig activity of 20 mins duratn. FITT activity level 0. Frequency-Intensity-Time-Type (FITT) activity level 0; no moderate or vigorous activity with a duration of 20 minutes. Frequency-intensity-time-type activity level 0; no moderate or vigorous activity with a duration of 20 minutes (finding). Frequency-intensity-time-type activity level 0; no moderate or vigorous activity with a duration of 20 minutes?",
+          "resposta": "Sim"
+        }
+      ]
+    },
+    {
+      "chunk": "associada aos médios esforços. Nega batida, refere alguns estresses. ATUAL # Dor torácica tipo C/D",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Tinea pedis. Tinea pedis (disorder)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "torácica tipo C/D - provavelmente não anginosa :: Tropononina sem curva (10,6 -> 11,9) ::",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta D-tryptophan N-acetyltransferase (substance). Acetyl-CoA-D-tryptophan-alpha-N-acetyltransferase. D-tryptophan acetyltransferase. D-tryptophan N-acetyltransferase?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "(10,6 -> 11,9) :: Alterações dinâmicas no ECG: inversão de T em DII, DII e AVF :: Heart Score",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta ECG: supraventricular arrhythmia. ECG: supraventricular arrhythmia (finding)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "AVF :: Heart Score 1+1+2+1+0=4 :: Cintilo miocárdica 28/08: Discreta área de hipoatividade",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta ECG: supraventricular arrhythmia. ECG: supraventricular arrhythmia (finding)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "de hipoatividade ântero-apical de etiologia a ser esclarecida. Não realizou a etapa de estresse a",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Pseudaspidodera jnanendre. Pseudaspidodera jnanendre (organism)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "etapa de estresse a pedido do médico assistente. # Queda hematimétrica por HDA ativa :: Hb: 12",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Haematopyometra. Hematopyometra. Hematopyometra (disorder)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "HDA ativa :: Hb: 12 >11.9>10,6>8,7>8>5,5 ;; EDA Sangramento ativo em porejamento em D2 - provável",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta HDI - 1,6-Hexamethylene di-isocyanate. 1,6-hexamethylene di-isocyanate (substance). 1,6-hexamethylene di-isocyanate?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "em D2 - provável lesão de Dieulafoy - mantendo sangramento ativo mesmo após tratamento endoscópico",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta At high risk of bleeding due to vitamin K epoxide reductase complex 1 rapid metabolizer. At high risk of bleeding due to vitamin K epoxide reductase complex 1 rapid metabolizer (finding). At high risk of bleeding due to VKORC1 (vitamin K epoxide reductase complex 1) rapid metabolizer. At high risk of bleeding due to vitamin K epoxide reductase complex 1 rapid metaboliser. At high risk of bleeding due to VKORC1 (vitamin K epoxide reductase complex 1) rapid metaboliser?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "endoscópico adequado (2 clipes + escleroterapia) :: AngioTC na urgencia: retropneumoperitonio ->",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Fluoroscopy guided percutaneous transluminal angioplasty with insertion of drug-eluting stent into coronary intermediate artery with contrast. Percutaneous coronary intervention with insertion of drug-eluting stent into ramus intermedius branch of left main coronary artery using fluoroscopic guidance with contrast. Percutaneous transluminal angioplasty with insertion of drug-eluting stent into coronary intermediate artery using fluoroscopic guidance with contrast (procedure). PCI (percutaneous coronary intervention) of RI (ramus intermedius) branch of LMCA (left main coronary artery) with insertion of DES (drug-eluting stent) using fluoroscopic guidance with contrast. Percutaneous transluminal angioplasty with insertion of drug-eluting stent into coronary intermediate artery using fluoroscopic guidance with contrast?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "-> avaliada pela CG, que indicou tratamento conservador e TC de controle em 48h :: 3 CHADs desde",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Assessment using congestive heart failure, hypertension, age 75 years or older, diabetes mellitus and previous stroke or transient ischemic attack score (procedure). Assessment using CHADS2 (congestive heart failure, hypertension, age 75 years or older, diabetes mellitus and previous stroke or transient ischemic attack) score. Assessment using congestive heart failure, hypertension, age 75 years or older, diabetes mellitus and previous stroke or transient ischemic attack score. Assessment using congestive heart failure, hypertension, age 75 years or older, diabetes mellitus and previous stroke or transient ischaemic attack score. Assessment using CHADS2 (congestive heart failure, hypertension, age 75 years or older, diabetes mellitus and previous stroke or transient ischaemic attack) score?",
+          "resposta": "Sim"
+        }
+      ]
+    },
+    {
+      "chunk": ":: 3 CHADs desde 27/08 :: Hb recentes: 6,8 -> 7,5 (03/09) # Herpes Zoster identificado em 26/08 ->",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta DQB1*0603. DQB1*0603 (substance)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "em 26/08 -> possivelmente a causa da dor torácica ATB: Aciclovir 28/08 - atual PPTZ 28/08 - atual",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "PPTZ 28/08 - atual SUBJETIVO Encontro paciente em leito de enfermaria, desacompanhada. Relata",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Nurse and patient conference. Nurse and patient conference (procedure)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "Relata melhora completa da dor abdominal e ausência de novas evacuações melenadas. Relata boa",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Acute exacerbation of chronic abdominal pain (finding). Acute exacerbation of chronic abdominal pain?",
+          "resposta": "Não"
+        }
+      ]
+    },
+    {
+      "chunk": "Relata boa aceitação VO. Sem novas queixas. OBJETIVO BEG, mucosas hipocoradas, LOC.. Eupneica em aa",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "Eupneica em aa SVs 24h PASS 120-130 | FC 74 -79 | Sat > 95% em aa | Afebril HGT 88-106-85 | Diurese",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Mesalazine 2g/59mL enema (product). Mesalazine 2g/59mL enema. Mesalamine 2g/59mL enema?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "88-106-85 | Diurese presente e evacuações presentes - pastosas. Sem episódios de melena recentes",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Couvade. Couvade (disorder)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "de melena recentes AC: BNF, RR, 2T, sem sopros AP: MVUD, SRA, eupneica ABD: Depressível, globoso,",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "globoso, sem dor a palpação superficial ou profunda, não palpo massas ou megalias, sem sinais de",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "sem sinais de peritonismo EXT: aquecidas e perfundidas, TEC <3s, sem edema ou empastamento de",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Belumosudil mesilate. Belumosudil mesilate (substance). Belumosudil mesylate?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "ou empastamento de panturrilha] IMPRESSÃO: Octogenária com funcionalidades preservadas previamente,",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Skrjabinema ovis. Skrjabinema ovis (organism)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "previamente, interna em contexto de dor torácica atípica e alterações dinâmicas em ECG, sem curva",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Past myocardial infarction diagnosed on ECG AND/OR other special investigation, but currently presenting no symptoms. Past myocardial infarction diagnosed on electrocardiogram AND/OR other special investigation, but currently presenting no symptoms (disorder). Past myocardial infarction diagnosed on electrocardiogram AND/OR other special investigation, but currently presenting no symptoms?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "em ECG, sem curva de troponinas - realizada estratificação não invasiva, sem achados conclusivos",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Pasireotide pamoate (substance). Pasireotide pamoate. Pasireotide embonate?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "achados conclusivos devido ausência de etapa de estresse. Intercorre com HDA e queda hematimétrica",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "queda hematimétrica com necessidade de transferência para UTI - sem sucesso em tentativas de",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Referral to hematuria clinic (procedure). Referral to haematuria clinic. Referral to hematuria clinic?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "em tentativas de hemostase endoscópica. Identificado pneumoretroperitônio pós EDA -> em manejo",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Senile keratoma. Senile keratoma (disorder)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "EDA -> em manejo conservador e sem novas quedas hematimétricas. # Devido a probabilidade",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Kamituga. Kamituga (qualifier value)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "a probabilidade intermediária de SCA/DAC, associada ao alto risco de ressangramento com DAPT,",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta At risk of graft-versus-host disease associated with transfusion. At increased risk of graft-versus-host disease associated with transfusion (finding). At increased risk of graft-versus-host disease associated with transfusion?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "com DAPT, optado pelo não seguimento de investigação coronariana CONDUTA: Sem necessidade de CHAD",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta PCI (percutaneous coronary intervention) of distal LMCA (left main coronary artery) with insertion of DES (drug-eluting stent) using fluoroscopic guidance with contrast. Percutaneous coronary intervention with insertion of drug-eluting stent into distal segment of left main coronary artery using fluoroscopic guidance with contrast. Fluoroscopy guided percutaneous transluminal angioplasty with insertion of drug-eluting stent into distal segment of left main coronary artery with contrast. Percutaneous transluminal angioplasty with insertion of drug-eluting stent into distal segment of left main coronary artery using fluoroscopic guidance with contrast (procedure). Percutaneous transluminal angioplasty with insertion of drug-eluting stent into distal segment of left main coronary artery using fluoroscopic guidance with contrast?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "necessidade de CHAD por ora - vigio exteriorizações Mantenho Ferro EV com plano de 5 dias de",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Cholecystojejunostomy. Cholecystojejunostomy (procedure)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "plano de 5 dias de reposição - D1 03/09 Mantenho omeprazol EV por ora Aguarda TC para",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Cholecystojejunostomy. Cholecystojejunostomy (procedure)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "ora Aguarda TC para acompanhamento de pneumoretroperitonio Aguarda consultoria da odontologia Plano",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Cholecystojejunostomy. Cholecystojejunostomy (procedure)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "odontologia Plano de Labs para sábado PLANO: - Discutir necessidade de retorno à anticoagulação",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Cholecystojejunostomy. Cholecystojejunostomy (procedure)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "à anticoagulação plena, visto FA paroxística pouco provável R1 MEI João Zanata | R2 MEI Fernanda |",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Argingipain. Gingipain 1. Gingipain R. Gingipain R (substance)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "| R2 MEI Fernanda | Eq. Cláudia Evoluído por: JOAO VITOR MARTINELLI ZANATA - CRM: 59497 em 04/09/25",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Acacia berlandieri. Guajillo. Acacia berlandieri (organism)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    },
+    {
+      "chunk": "59497 em 04/09/25 às 12:48",
+      "qna": [
+        {
+          "pergunta": "O paciente apresenta Urobilin. Urobilin (substance)?",
+          "resposta": "Não mencionado"
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "total": 48,
+    "nulos": 45,
+    "ratio_nulos": 0.9375,
+    "tempo_execucao": 2.6702880859375e-05
+  }
+}

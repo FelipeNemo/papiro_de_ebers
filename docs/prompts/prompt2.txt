@@ -1,0 +1,59 @@
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+----- chunk_size: int = 150, chunk_overlap: int = 30 / Sem filtros de termos------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+
+{
+  "pdf_path": "data/test/R060 - ( Anormalidades da respiraca.txt",
+  "chunks": [
+    "R060 - ( Anormalidades da respiracao ) Dispneia Evolução HNSC: ## UDC - EMERGÊNCIA ## DELVINO",
+    "## DELVINO BONACINA - 89 ANOS R: 48845477 UDC-HNSC: 02/08/2025 ##### MANEJO MÁXIMO DE ANDAR #######"
+  ],
+  "results": [
+    {
+      "chunk": "R060 - ( Anormalidades da respiracao ) Dispneia Evolução HNSC: ## UDC - EMERGÊNCIA ## DELVINO",
+      "concepts": [],
+      "diagnostic": "```json\n{\n  \"diagnostico\": \"Dispneia\",\n  \"justificativa\": \"A dispneia é uma anormalidade respiratória que se destaca no trecho, indicando dificuldade respiratória, o que é relevante em um contexto de emergência.\"\n}\n```"
+    },
+    {
+      "chunk": "## DELVINO BONACINA - 89 ANOS R: 48845477 UDC-HNSC: 02/08/2025 ##### MANEJO MÁXIMO DE ANDAR #######",
+      "concepts": [],
+      "diagnostic": "```json\n{ \n  \"diagnostico\": \"Dificuldade para andar\",\n  \"justificativa\": \"O trecho menciona 'MANEJO MÁXIMO DE ANDAR', sugerindo que o paciente pode ter dificuldades relacionadas à mobilidade, o que é relevante para o diagnóstico.\" \n}\n```"
+    }
+  ],
+  "questions_map": [
+    {
+      "chunk": "R060 - ( Anormalidades da respiracao ) Dispneia Evolução HNSC: ## UDC - EMERGÊNCIA ## DELVINO",
+      "questions": []
+    },
+    {
+      "chunk": "## DELVINO BONACINA - 89 ANOS R: 48845477 UDC-HNSC: 02/08/2025 ##### MANEJO MÁXIMO DE ANDAR #######",
+      "questions": []
+    }
+  ],
+  "qna_results": [
+    {
+      "chunk": "R060 - ( Anormalidades da respiracao ) Dispneia Evolução HNSC: ## UDC - EMERGÊNCIA ## DELVINO",
+      "qna": []
+    },
+    {
+      "chunk": "## DELVINO BONACINA - 89 ANOS R: 48845477 UDC-HNSC: 02/08/2025 ##### MANEJO MÁXIMO DE ANDAR #######",
+      "qna": []
+    }
+  ],
+  "metrics": {
+    "total": 0,
+    "nulos": 0,
+    "ratio_nulos": 0,
+    "tempo_execucao": 1.430511474609375e-05
+  }
+}

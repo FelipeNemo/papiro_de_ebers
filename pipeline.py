@@ -1,204 +1,241 @@
 """
 MODULO PIPELINE
-Consome a base local do SNOMED CT e PDFs de prontuários eletrônicos
-para retornar diagnósticos simulados via LLM.
+Processa PDFs/TXT de prontuários eletrônicos, busca conceitos SNOMED CT
+usando embeddings locais e retorna diagnósticos simulados via LLM.
 
 Autor: Felipe Augusto Bastista Mendes dos Santos
 Stakeholder: Ebers Saúde
-Ebers MVP - Pipeline de Diagnóstico com SNOMED CT
 Data: 2024-08-30
-
-Descrição:
-Pipeline que processa PDFs de prontuários eletrônicos,
-busca conceitos relevantes no SNOMED CT usando embeddings locais
-e retorna diagnósticos simulados via LLM.
-
-Componentes:
-1. Pré-processamento SNOMED CT
-2. Leitura e chunking do PDF
-3. Busca no Vector Store (FAISS)
-4. Pipeline LangGraph com rastreabilidade LangSmith
 """
 
-# -------------------------------
-# 2. Leitura e chunking do PDF
-# -------------------------------
-import pdfplumber
-import re
-import faiss
 import os
+import re
 import glob
 import json
+import time
+import pdfplumber
 import pandas as pd
 import numpy as np
-from langgraph.graph import StateGraph, END
-from langsmith import traceable
 from typing import TypedDict, List, Dict
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
+from langchain_openai import ChatOpenAI
+from langgraph.graph import StateGraph, END
+from langsmith import traceable
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv(dotenv_path=".env")
+print(os.getenv("OPENAI_API_KEY"))  # deve imprimir a chave
+
+# -------------------------------
+# Inicialização de modelos
+# -------------------------------
 print("🔹 Inicializando modelo de embeddings...")
-model = SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
+embedding_model = SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 
 # -------------------------------
 # Utilitários
 # -------------------------------
 def clean_text(text: str) -> str:
-    """Remove múltiplos espaços e quebras de linha, retornando texto limpo"""
-    text = re.sub(r"\s+", " ", text)
-    return text.strip()
+    return re.sub(r"\s+", " ", text).strip()
 
-def extract_and_chunk_txt(txt_path: str, chunk_size: int = 300) -> list[str]:
-    """Lê TXT, normaliza e divide em chunks de tamanho aproximado (tokens/palavras)"""
-    text_chunks = []
-    with open(txt_path, "r", encoding="utf-8") as f:
-        text = clean_text(f.read())
-        words = text.split()
-        for i in range(0, len(words), chunk_size):
-            chunk = " ".join(words[i:i+chunk_size])
-            text_chunks.append(chunk)
-    return text_chunks
-
-def extract_and_chunk_pdf(pdf_path: str, chunk_size: int = 300) -> list[str]:
-    """Lê PDF, extrai texto por página e divide em chunks de tamanho aproximado (tokens/palavras)"""
-    text_chunks = []
-    with pdfplumber.open(pdf_path) as pdf:
-        for page in pdf.pages:
-            text = page.extract_text()
-            if text:
-                text = clean_text(text)
-                words = text.split()
-                for i in range(0, len(words), chunk_size):
-                    chunk = " ".join(words[i:i+chunk_size])
-                    text_chunks.append(chunk)
-    return text_chunks
-
-def extract_and_chunk_file(file_path: str, chunk_size: int = 300) -> list[str]:
-    """Decide automaticamente se o arquivo é PDF ou TXT e chama o parser correto"""
+def extract_and_split_file(file_path: str, snomed_terms: List[str], chunk_size: int = 150, chunk_overlap: int = 30) -> List[str]:
+    """Lê PDF ou TXT, gera chunks e filtra por termos SNOMED, mas retorna todos se nenhum match."""
     ext = os.path.splitext(file_path)[1].lower()
+    text = ""
+
     if ext == ".pdf":
-        return extract_and_chunk_pdf(file_path, chunk_size)
+        with pdfplumber.open(file_path) as pdf:
+            text = " ".join(page.extract_text() or "" for page in pdf.pages)
     elif ext == ".txt":
-        return extract_and_chunk_txt(file_path, chunk_size)
+        with open(file_path, "r", encoding="utf-8") as f:
+            text = f.read()
     else:
         raise ValueError(f"Formato de arquivo não suportado: {ext}")
 
+    text = clean_text(text)
+    splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+    chunks = splitter.split_text(text)
+
+    # Filtra chunks que contêm termos SNOMED
+    term_chunks = [chunk for chunk in chunks if any(term.lower() in chunk.lower() for term in snomed_terms)]
+    # TODO: Evitar chunks irrelevantes
+    # Se não houver matches, não retornar todos, mas apenas os primeiros 1-2 chunks para debug
+    return chunks
+    # Se não houver matches, retorna todos os chunks (para debug ou fallback)
+    #return term_chunks or chunks
+
+def generate_questions(concepts: List[Dict]) -> List[str]:
+    return [f"O paciente apresenta {c.get('term')}?" for c in concepts if c.get("term")]
+
+def build_prompt(concepts: List[Dict], chunk: str) -> str:
+    context = (
+        "Você é um assistente clínico especializado em terminologias médicas (SNOMED CT). "
+        "Sua tarefa é analisar trechos de prontuários médicos e sugerir diagnósticos potenciais."
+    )
+    instructions = (
+        "Siga estas etapas:\n"
+        "1. Leia o trecho do prontuário.\n"
+        "2. Analise os conceitos SNOMED CT recuperados.\n"
+        "3. Escolha o conceito mais relevante.\n"
+        "4. Justifique brevemente sua escolha.\n"
+        "5. Retorne no formato estruturado JSON."
+    )
+    input_section = f"Trecho: {chunk}\nConceitos candidatos: {concepts}"
+    output_section = "Formato esperado:\n{ 'diagnostico': 'nome do conceito SNOMED CT', 'justificativa': 'texto curto' }"
+    return f"{context}\n\n{instructions}\n\n{input_section}\n\n{output_section}"
+
+def build_qna(chunk: str, questions: List[str]) -> List[Dict]:
+    qna_results = []
+    for q in questions:
+        prompt = f"""
+Você é um assistente clínico. Leia atentamente o trecho do prontuário abaixo.
+Responda apenas com 'Sim', 'Não' ou 'Não mencionado'.
+
+Trecho: {chunk}
+
+Pergunta: {q}
+
+Instruções:
+- Responda 'Sim' somente se houver **evidência textual clara** no trecho que confirma o conceito.
+- Responda 'Não' se houver evidência textual que negue o conceito.
+- Responda 'Não mencionado' se não houver informações suficientes no trecho.
+
+Responda **apenas com uma destas três opções**, sem explicações adicionais.
+"""
+        response = llm.invoke(prompt).content.strip()
+        qna_results.append({"pergunta": q, "resposta": response})
+    return qna_results
+
+def evaluate_results(results: List[Dict]) -> Dict:
+    start = time.time()
+    total = sum(len(r.get("qna", [])) for r in results)
+    null_count = sum(1 for r in results for q in r.get("qna", []) if "Não mencionado" in q["resposta"])
+    return {"total": total, "nulos": null_count, "ratio_nulos": null_count/total if total>0 else 0, "tempo_execucao": time.time() - start}
+
 # -------------------------------
-# 3. Busca no Vector Store
+# Setup Vector Store FAISS
 # -------------------------------
-# Reabrir índice e conceitos salvos
-from typing import TypedDict, List, Dict
+import faiss
 
 index = faiss.read_index("data/vector/snomed_ivf.index", faiss.IO_FLAG_MMAP)
+index.nprobe = 16
 concept_groups = pd.read_csv("data/vector/snomed_concepts.csv")
 
-# Ajuste do nprobe (quantos clusters buscar por query)
-index.nprobe = 16  # tradeoff entre velocidade x precisão
+# TODO: 
+# Sem filtro por categoria
+snomed_terms = concept_groups["term"].dropna().tolist()
 
-# Define estado compartilhado da pipeline (vem antes de search_snomed)
+
 class PipelineState(TypedDict):
     pdf_path: str
     chunks: List[str]
     results: List[Dict]
-    model: object  # modelo no estado da pipeline
+    questions_map: List[Dict]
+    qna_results: List[Dict]
+    metrics: Dict
+
+ # ajustar distance_threshold conforme os resultados (0.5–0.7 costuma funcionar bem).
+# ajustar distance_threshold conforme os resultados (0.5–0.7 costuma funcionar bem).
+def search_snomed(query: str, k: int = 5, distance_threshold: float = 0.6) -> List[Dict]: 
+    emb = np.array(embedding_model.encode([query])).astype("float32")
+    D, I = index.search(emb, k)
+
+    results = []  # inicializa a lista de resultados
+
+    # Filtra conceitos apenas pelo threshold de distância
+    for idx, dist in zip(I[0], D[0]):
+        # FAISS retorna similaridade invertida dependendo do índice: use <= para IVF ou 1/dist
+        if dist <= distance_threshold:
+            results.append(concept_groups.iloc[idx].to_dict())
+
+    # Se quiser sempre pelo menos 1 resultado, mesmo que distante:
+    if not results and len(I[0]) > 0:
+        results.append(concept_groups.iloc[I[0][0]].to_dict())
+
+    return results
 
 
-def search_snomed(query: str, state: PipelineState, k: int = 5) -> list[dict]:
-    """Busca os k conceitos mais próximos no SNOMED CT usando IVF on-disk"""
-    query_emb = state["model"].encode([query])
-    query_emb = np.array(query_emb).astype("float32")
-    D, I = index.search(query_emb, k)
-    return [concept_groups.iloc[idx].to_dict() for idx in I[0]]
 
 # -------------------------------
-# 4. Fluxo no LangGraph com LangSmith
+# LangGraph Nodes
 # -------------------------------
-load_dotenv()  # Carrega variáveis do .env
-
-# Teste
-print(os.getenv("LANGCHAIN_API_KEY"))
-
-# --- NODES ---
 @traceable(name="Input Node")
 def input_node(state: PipelineState):
-    """Recebe caminho do PDF"""
     return {"pdf_path": state["pdf_path"]}
 
 @traceable(name="Process Node")
 def process_node(state: PipelineState):
-    """Extrai texto do PDF/TXT e realiza chunking"""
-    chunks = extract_and_chunk_file(state["pdf_path"])  # <-- aqui
-    return {"chunks": chunks}
+    return {"chunks": extract_and_split_file(state["pdf_path"], snomed_terms, 100, 20)}
 
-@traceable(name="Retriever Node")
+
 def retriever_node(state: PipelineState):
-    """Busca os top-k conceitos SNOMED para cada chunk"""
-    results = []
-    for chunk in state["chunks"]:
-        res = search_snomed(chunk, state, k=5)
-        results.append({"chunk": chunk, "matches": res})
-    return {"results": results}
+    return {"results": [{"chunk": chunk, "matches": search_snomed(chunk, k=5, distance_threshold=0.8)} for chunk in state["chunks"]]}
 
 @traceable(name="LLM Node")
 def llm_node(state: PipelineState):
-    """
-    Você é um assistente médico especializado em mapeamento de prontuários eletrônicos
-    para conceitos SNOMED CT. 
-    """
     analyzed = []
     for r in state["results"]:
-        analyzed.append({
-            "chunk": r["chunk"],
-            "concepts": r["matches"],
-            "diagnostic": f"LLM avaliou e escolheu conceito mais próximo"
-        })
+        prompt = build_prompt(r["matches"], r["chunk"])
+        analyzed.append({"chunk": r["chunk"], "concepts": r["matches"], "diagnostic": llm.invoke(prompt).content})
     return {"results": analyzed}
 
-# --- GRAPH ---
-graph = StateGraph(PipelineState)
-graph.add_node("input", input_node)
-graph.add_node("process", process_node)
-graph.add_node("retriever", retriever_node)
-graph.add_node("llm", llm_node)
-graph.set_entry_point("input")
-graph.add_edge("input", "process")
-graph.add_edge("process", "retriever")
-graph.add_edge("retriever", "llm")
-graph.add_edge("llm", END)
+@traceable(name="Question Node")
+def question_node(state: PipelineState):
+    return {"results": state["results"], "questions_map": [{"chunk": r["chunk"], "questions": generate_questions(r["concepts"])} for r in state["results"]]}
 
-# Compilar pipeline
+@traceable(name="QnA Node")
+def qna_node(state: PipelineState):
+    return {"qna_results": [{"chunk": qm["chunk"], "qna": build_qna(qm["chunk"], qm["questions"])} for qm in state["questions_map"]]}
+
+@traceable(name="Evaluation Node")
+def evaluation_node(state: PipelineState):
+    metrics = evaluate_results(state["qna_results"])
+    return {"qna_results": state["qna_results"], "metrics": metrics}
+
+# -------------------------------
+# Grafo LangGraph
+# -------------------------------
+graph = StateGraph(PipelineState)
+nodes = [("input", input_node), ("process", process_node), ("retriever", retriever_node), 
+         ("llm", llm_node), ("questions", question_node), ("qna", qna_node), ("evaluation", evaluation_node)]
+
+for name, node in nodes:
+    graph.add_node(name, node)
+
+graph.set_entry_point("input")
+edges = [("input","process"),("process","retriever"),("retriever","llm"),("llm","questions"),
+         ("questions","qna"),("qna","evaluation"),("evaluation",END)]
+
+for src, dst in edges:
+    graph.add_edge(src,dst)
+
 app = graph.compile()
 
 # -------------------------------
-# Execução com rastreabilidade no LangSmith
+# Execução da Pipeline
 # -------------------------------
 @traceable(name="SNOMED Pipeline")
 def run_pipeline(pdf_path: str):
-    """Executa a pipeline completa e envia logs para LangSmith"""
-    return app.invoke({"pdf_path": pdf_path, "model": model})
+    return app.invoke({"pdf_path": pdf_path})
 
 # -------------------------------
-# Execução universal para PDFs e TXT
+# Batch Execution
 # -------------------------------
 input_folder = "data/test"
 res_folder = os.path.join(input_folder, "res")
 os.makedirs(res_folder, exist_ok=True)
 
-# Pega todos os arquivos PDF e TXT
 files = glob.glob(os.path.join(input_folder, "*.txt")) + glob.glob(os.path.join(input_folder, "*.pdf"))
 
 for file_path in files:
     print(f"Processando {file_path}...")
     final_state = run_pipeline(file_path)
-    base_name = os.path.basename(file_path)
-    json_name = os.path.splitext(base_name)[0] + ".json"
-    output_path = os.path.join(res_folder, json_name)
+    output_path = os.path.join(res_folder, os.path.splitext(os.path.basename(file_path))[0] + ".json")
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(final_state["results"], f, ensure_ascii=False, indent=2)
+        json.dump(final_state, f, ensure_ascii=False, indent=2)
     print(f"Resultado salvo em {output_path}\n")
-
-
-
-
-
-
