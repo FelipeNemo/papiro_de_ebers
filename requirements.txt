@@ -1,0 +1,27 @@
+# Dependências do Projeto Papiro de Ebers
+# MVP Ebers Saúde - Pipeline de Diagnóstico com SNOMED CT
+
+# Processamento de dados
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Busca vetorial e embeddings
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.0
+
+# Processamento de PDF
+pdfplumber>=0.9.0
+
+# LangChain e LangGraph
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langgraph>=0.0.20
+langsmith>=0.0.70
+
+# Configuração e utilitários
+python-dotenv>=1.0.0
+
+# Opcional: para desenvolvimento
+jupyter>=1.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
