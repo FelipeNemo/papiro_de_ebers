@@ -23,12 +23,23 @@ from langchain_openai import ChatOpenAI
 from langgraph.graph import StateGraph, END
 from langsmith import traceable
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+from openai import OpenAI
+from langsmith.wrappers import wrap_openai  # traces openai calls
+import webbrowser
 
-from dotenv import load_dotenv
+
 import os
+
+
 
 load_dotenv(dotenv_path=".env")
 print(os.getenv("OPENAI_API_KEY"))  # deve imprimir a chave
+client = wrap_openai(OpenAI()) 
+
+print("TRACING:", os.getenv("LANGCHAIN_TRACING_V2"))
+print("ENDPOINT:", os.getenv("LANGCHAIN_ENDPOINT"))
+print("API_KEY:", os.getenv("LANGCHAIN_API_KEY"))
+print("PROJECT:", os.getenv("LANGSMITH_PROJECT"))
 
 # -------------------------------
 # Inicialização de modelos
@@ -219,10 +230,10 @@ app = graph.compile()
 # -------------------------------
 # Execução da Pipeline
 # -------------------------------
+
 @traceable(name="SNOMED Pipeline")
 def run_pipeline(pdf_path: str):
-    return app.invoke({"pdf_path": pdf_path})
-
+    return app.invoke({"pdf_path": pdf_path})    
 # -------------------------------
 # Batch Execution
 # -------------------------------
@@ -235,6 +246,21 @@ files = glob.glob(os.path.join(input_folder, "*.txt")) + glob.glob(os.path.join(
 for file_path in files:
     print(f"Processando {file_path}...")
     final_state = run_pipeline(file_path)
+    # -------------------------------
+    # Abrir painel do LangSmith no navegador
+    # -------------------------------
+    ORG_ID = "coloque_aqui_o_id_da_sua_org"  # pegue no site smith.langchain.com (URL da sua org)
+    project = os.getenv("LANGSMITH_PROJECT")
+    url = f"https://smith.langchain.com/o/{ORG_ID}/projects/{project}"
+    print(f"\n🔗 Abra o painel aqui: {url}")
+    webbrowser.open(url)
+
+    # Exemplo de debug: imprimir todos os nodes e resultados
+    for node_name, node_data in final_state.items():
+        print(f"Node: {node_name}")
+        print(json.dumps(node_data, ensure_ascii=False, indent=2))
+        print("-"*50)
+    
     output_path = os.path.join(res_folder, os.path.splitext(os.path.basename(file_path))[0] + ".json")
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(final_state, f, ensure_ascii=False, indent=2)
